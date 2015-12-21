@@ -155,12 +155,14 @@
             return [l, t];
         };
         
-        env.show ? show() : $(this).click(function(){
-            show();
-            return false;
-        });
+//        env.show ? show() : $(this).click(function(){
+//            show();
+//            return false;
+//        });
+        show();
         return this;
     }
+   
     $.fn.BOX.defaults = {
         eid: "",
         basehome: "",
