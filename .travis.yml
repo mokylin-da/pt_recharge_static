@@ -15,17 +15,17 @@ script:
 - find . \( -iname '*.html' -o -iname '*.css' -o -iname '*.js' \) -exec gzip -9 -n
   {} \; -exec mv {}.gz {} \;
 - env AWS_ACCESS_KEY_ID=${SG_AWS_ACCESS_KEY_ID} AWS_SECRET_ACCESS_KEY=${SG_AWS_SECRET_ACCESS_KEY}
-  aws --region ap-southeast-1 s3 sync . s3://${BUCKET}/user/ --delete --exclude '*'
+  aws --region ap-southeast-1 s3 sync . s3://${BUCKET}/recharge/ --delete --exclude '*'
   --include '*.css' --include '*.js' --include '*.html' --cache-control 'max-age=7200'
   --content-encoding gzip --delete
 - env AWS_ACCESS_KEY_ID=${SG_AWS_ACCESS_KEY_ID} AWS_SECRET_ACCESS_KEY=${SG_AWS_SECRET_ACCESS_KEY}
-  aws --region ap-southeast-1 s3 sync . s3://${BUCKET}/user/ --delete --exclude ".travis.yml"
+  aws --region ap-southeast-1 s3 sync . s3://${BUCKET}/recharge/ --delete --exclude ".travis.yml"
   --exclude ".git/*" --exclude "README.md" --exclude '*.css' --exclude '*.js' --exclude
   '*.html'
-- aws --region cn-north-1 s3 sync . s3://${BUCKET}/user/ --delete --exclude '*' --include
+- aws --region cn-north-1 s3 sync . s3://${BUCKET}/recharge/ --delete --exclude '*' --include
   '*.css' --include '*.js' --include '*.html' --cache-control 'max-age=7200' --content-encoding
   gzip --delete --page-size 50
-- aws --region cn-north-1 s3 sync . s3://${BUCKET}/user/ --delete --exclude ".travis.yml"
+- aws --region cn-north-1 s3 sync . s3://${BUCKET}/recharge/ --delete --exclude ".travis.yml"
   --page-size 50 --exclude ".git/*" --exclude "README.md" --exclude '*.css' --exclude
   '*.js' --exclude '*.html'
 env:
