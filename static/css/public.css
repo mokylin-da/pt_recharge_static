@@ -1,0 +1,171 @@
+
+@charset "utf-8";
+.c_grey {
+    color: #646464;
+}
+.c_grey1 {
+    color: #909090;
+}
+.c_org {
+    color: #ff3c00;
+}
+.c_red {
+    color: #f00;
+}
+.c_green {
+    color: #54c11a;
+}
+.p_links {
+    color: #0066d8;
+}
+.ico_ico {
+    background: rgba(0, 0, 0, 0) url("../../images/common/ico_ico.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+.ico_phone_g, .ico_phone {
+    background-position: 0 0;
+    height: 18px;
+    width: 12px;
+}
+.ico_phone {
+    background-position: -20px 0;
+}
+.ico_dg {
+    background-position: -60px 0;
+}
+.ico_sf {
+    background-position: -40px 0;
+}
+.ico_360 {
+    background-position: -80px 0;
+}
+.ico_gift {
+    background-position: -100px 0;
+}
+.ico_bk {
+    background-position: 0 -20px;
+    width: 25px;
+}
+.ico_ali {
+    background-position: -40px -20px;
+    width: 25px;
+}
+.ico_union {
+    background-position: -80px -20px;
+    width: 25px;
+}
+.ico_card {
+    background-position: -120px -20px;
+    width: 25px;
+}
+.ico_py {
+    background-position: 0 -40px;
+    width: 25px;
+}
+.ico_pmsg {
+    background-position: -40px -40px;
+    width: 25px;
+}
+.ico_pmore {
+    background-position: -80px -40px;
+    width: 25px;
+}
+.ico_mo9 {
+    background-position: 0 -60px;
+    width: 25px;
+}
+.ico_kf {
+    background-position: -120px -40px;
+    height: 22px;
+    width: 20px;
+}
+.ico_use {
+    background-position: 0 -80px;
+    height: 25px;
+    width: 60px;
+}
+.ico_tips {
+    background-position: -80px -80px;
+}
+.tit_a {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 12px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+.tit_a span {
+    float: left;
+    font-size: 14px;
+}
+.tit_a span.c_red {
+    font-size: 12px;
+}
+.input_chk {
+    margin-right: 5px;
+    vertical-align: -2px;
+}
+.input_txt {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset;
+    color: #9999a2;
+    height: 17px;
+    line-height: 17px;
+    padding: 3px 5px;
+    vertical-align: middle;
+    width: 218px;
+}
+.in_w255 {
+    width: 255px;
+}
+.in_w98 {
+    width: 98px;
+}
+.btn_btn {
+    background: rgba(0, 0, 0, 0) url("../images/common/p_btn.png") no-repeat scroll 0 -53px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn_btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.btn_short, .btn_disabled {
+    font-size: 12px;
+    height: 27px;
+    line-height: 27px;
+    width: 53px;
+}
+.btn_disabled, .btn_disabled:hover {
+    background-position: 0 -81px;
+    color: #5b5b5b;
+    cursor: default;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
+}
+.btn_pay, .btn_pay_disabled {
+    background-position: -63px -53px;
+    font-size: 18px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    width: 120px;
+}
+.btn_pay_disabled, .btn_pay_disabled:hover {
+    background-position: 0 -171px;
+    color: #403f3f;
+    cursor: default;
+    text-decoration: none;
+}
+.ico_coupon {
+    background-position: -125px 0;
+}
+.num {
+    margin: 0 10px 0 20px;
+}

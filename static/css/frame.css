@@ -1,0 +1,173 @@
+
+@charset "utf-8";
+.wan_top_fixed {
+    height: 25px;
+    position: static;
+}
+.pay_header {
+    background: rgba(0, 0, 0, 0) url("../../images/common/header_bg.png") repeat-x scroll 0 0;
+    height: 52px;
+    width: 100%;
+}
+.pay_header .header_conn {
+    background: rgba(0, 0, 0, 0) url("../../images/common/header_bg.png") repeat-x scroll 0 0;
+    height: 52px;
+    margin: 0 auto;
+    width: 985px;
+}
+.pay_header .pay_logo {
+    background: rgba(0, 0, 0, 0) url("../../images/common/") no-repeat scroll 0 0;
+    display: block;
+    height: 52px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 265px;
+}
+.wrap {
+    background: #fff none repeat scroll 0 0;
+    padding: 16px 0 0;
+    width: 100%;
+}
+.frame_content {
+    margin: 0 auto;
+    width: 985px;
+}
+.user_wrap {
+    height: 43px;
+    margin: 0 0 16px;
+    position: relative;
+}
+.user_wrap .common_userInfo {
+    float: left;
+    margin: 0 52px 0 0;
+    width: 183px;
+}
+.user_wrap .userInfo_box::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.user_wrap .userInfo_box {
+}
+.user_wrap .userInfo_head {
+    display: inline;
+    float: left;
+    margin: 0 13px 0 0;
+    width: 42px;
+}
+.user_wrap .userInfo_head img {
+    border: 0 none;
+    display: block;
+}
+.user_wrap .userInfo_conn {
+    float: right;
+    width: 127px;
+}
+.user_wrap .userInfo_conn .userInfo_name {
+    height: 16px;
+    line-height: 16px;
+    margin: 0 0 6px;
+    text-align: right;
+}
+.user_wrap .userInfo_conn .userInfo_name span {
+    display: inline-block;
+    float: left;
+    height: 16px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 75px;
+}
+.user_wrap .userInfo_conn .userInfo_jf {
+    height: 18px;
+    line-height: 18px;
+}
+.user_wrap .userInfo_conn .userInfo_jf .ico_ico {
+    margin: 0 3px;
+}
+.user_wrap .userInfo_conn .userInfo_jf .ico_phone_g, .user_wrap .userInfo_conn .userInfo_jf .ico_phone {
+    margin: 0 6px 0 0;
+}
+.user_wrap .user_account {
+    float: left;
+    position: relative;
+    width: 580px;
+}
+.user_wrap .user_account .tt {
+    height: 20px;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+}
+.user_wrap .user_account .account_info {
+    margin: 0 0 0 71px;
+}
+.user_wrap .user_account .account_info li {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.user_wrap .user_account .account_info li span {
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0;
+    text-align: left;
+}
+.user_wrap .user_account .account_info li span em {
+    float: left;
+}
+.user_wrap .user_account .account_info li .ico_ico {
+    margin: 0 5px 0 0;
+}
+.user_wrap .user_help {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.user_wrap .user_login {
+    height: 43px;
+    text-align: right;
+    width: 727px;
+}
+.user_wrap .user_login span {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    line-height: 43px;
+}
+.user_wrap .user_login .login_btn, .user_wrap .user_login .reg_btn {
+    background: rgba(0, 0, 0, 0) url("../../images/common/p_btn.png") no-repeat scroll 0 -237px;
+    color: #41b305;
+    display: inline-block;
+    font-size: 18px;
+    height: 43px;
+    line-height: 43px;
+    margin: 0 0 0 29px;
+    text-align: center;
+    width: 128px;
+}
+.user_wrap .user_login .reg_btn {
+    background-position: -157px -237px;
+    color: #0066d8;
+}
+.frame_conn {
+    background: rgba(0, 0, 0, 0) url("../../images/common/bgy01.png") repeat-y scroll 0 0;
+    border: 1px solid #e8e8e8;
+    margin: 0 0 35px;
+    width: 600px;
+}
+.frame_right {
+    float: left;
+    text-align: center;
+    width: 600px;
+}
+.frame_bgnone {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.foot {
+    margin-bottom: 20px;
+}

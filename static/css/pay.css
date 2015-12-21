@@ -1,0 +1,708 @@
+
+@charset "utf-8";
+.pay_sel {
+    font-size: 0;
+    margin: 0 auto;
+    padding: 34px 0 22px;
+    position: relative;
+    width: 510px;
+    z-index: 10;
+}
+@media not all {
+.pay_sel {
+    letter-spacing: -5px;
+}
+}
+.pay_sel li {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: normal;
+    margin: 0 15px;
+    position: relative;
+    vertical-align: top;
+    width: 225px;
+    word-spacing: normal;
+}
+.pay_sel .sel_item, .pay_sel .sel_item:hover, .pay_sel .sel_item_disable {
+    background: rgba(0, 0, 0, 0) url("../../images/common/p_btn.png") no-repeat scroll 0 0;
+    color: #403f3f;
+    display: block;
+    font-size: 14px;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 44px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 181px;
+}
+.pay_sel .sel_item_disable {
+    background-position: 0 -118px;
+    cursor: default;
+}
+.pay_sel li.err {
+    color: #f00;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 480px;
+}
+.pay_sel li .pay_layer {
+    display: none;
+    left: 0;
+    top: 50px;
+    width: 533px;
+}
+.pay_sel li .btn_sel .ico_ico {
+    margin: 0 0 0 6px;
+}
+.pay_sel li.cur .pay_layer {
+    display: block;
+}
+.pay_sel li.lst .pay_layer {
+    left: auto;
+    right: -57px;
+}
+.pay_sel li.lst .pay_layer s {
+    left: auto;
+    right: 160px;
+}
+.pay_rconn {
+    margin: 0 auto;
+    width: 709px;
+}
+.pay_money_conn {
+    padding: 18px 0 18px 48px;
+}
+.pay_money_conn ul {
+    font-size: 0;
+}
+@media not all {
+.pay_money_conn ul {
+    letter-spacing: -5px;
+}
+}
+.pay_money_conn li {
+    display: inline-block;
+    font-size: 14px;
+    height: 25px;
+    letter-spacing: normal;
+    line-height: 25px;
+    margin: 0 0 8px;
+    position: relative;
+    vertical-align: top;
+    width: 100px;
+    word-spacing: normal;
+    z-index: 1;
+}
+.pay_money_conn li.lst {
+    display: block;
+    margin: 0 0 10px;
+    width: auto;
+}
+.pay_money_conn li label, .pay_bank_conn li label {
+    cursor: pointer;
+}
+.pay_money_conn .tips {
+    background: #d7d7d7 none repeat scroll 0 0;
+    border: 1px solid #c9c9c9;
+    color: #a3a3a3;
+    padding: 0 5px;
+    width: 560px;
+}
+.pay_money_conn .tips p {
+    line-height: 22px;
+}
+.pay_money_conn .c_red {
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+.pay_money_conn .txt {
+    padding-top: 10px;
+}
+.pay_money_conn .txt p {
+    line-height: 18px;
+}
+.pay_bank_conn {
+    padding: 20px 0 20px 36px;
+}
+.pay_bank_conn ul {
+    font-size: 0;
+}
+@media not all {
+.pay_money_conn ul {
+    letter-spacing: -5px;
+}
+}
+.pay_bank_conn li {
+    display: inline-block;
+    font-size: 14px;
+    height: 38px;
+    letter-spacing: normal;
+    line-height: 38px;
+    margin: 0 14px 4px 0;
+    padding: 0 0 0 12px;
+    position: relative;
+    vertical-align: top;
+    width: 140px;
+    word-spacing: normal;
+}
+.pay_bank_conn li .ico_use {
+    position: absolute;
+    right: -18px;
+    top: -12px;
+}
+.pay_bank_conn li .input_chk {
+    margin-right: 12px;
+}
+.ico_bank {
+    background: rgba(0, 0, 0, 0) url("../../images/common/bank.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 24px;
+    vertical-align: middle;
+    width: 102px;
+}
+.icbc {
+    background-position: 0 0;
+}
+.cmb {
+    background-position: -112px 0;
+}
+.ccb {
+    background-position: -224px 0;
+}
+.abc {
+    background-position: -336px 0;
+}
+.spdb {
+    background-position: 0 -34px;
+}
+.cib {
+    background-position: -112px -34px;
+}
+.cgb {
+    background-position: -224px -34px;
+}
+.sdb {
+    background-position: -336px -34px;
+}
+.cmbc {
+    background-position: 0 -68px;
+}
+.bankcomm {
+    background-position: -112px -68px;
+}
+.ecitic {
+    background-position: -224px -68px;
+}
+.ceb {
+    background-position: -336px -68px;
+}
+.bea {
+    background-position: 0 -102px;
+}
+.ofbj {
+    background-position: -112px -102px;
+}
+.boc {
+    background-position: -224px -102px;
+}
+.cbhb {
+    background-position: -336px -102px;
+}
+.njcb {
+    background-position: 0 -136px;
+}
+.psbc {
+    background-position: -112px -136px;
+}
+.pay_card_conn li {
+    height: 47px;
+    line-height: 47px;
+}
+.pay_card_conn li .input_chk {
+    margin-right: 0;
+}
+.card_logo {
+    background: rgba(0, 0, 0, 0) url("../../images/common/card.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 47px;
+    vertical-align: middle;
+    width: 119px;
+}
+.card_360 {
+    background-position: 0 0;
+}
+.card_perfect {
+    background-position: -129px 0;
+}
+.card_163 {
+    background-position: 0 -57px;
+}
+.card_zt {
+    background-position: 0 -114px;
+}
+.card_jcard {
+    background-position: 0 -228px;
+}
+.card_th {
+    background-position: -129px -57px;
+}
+.card_sft {
+    background-position: 0 -171px;
+}
+.pay_phone_card li {
+    height: 58px;
+    line-height: 58px;
+    margin-right: 4px;
+    width: 150px;
+}
+.pay_phone_card li .input_chk {
+    margin-right: 6px;
+}
+.phone_logo {
+    background: rgba(0, 0, 0, 0) url("../../images/common/phone_card.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 58px;
+    vertical-align: middle;
+    width: 123px;
+}
+.phone_10086 {
+    background-position: 0 0;
+}
+.phone_10010 {
+    background-position: 0 -68px;
+}
+.phone_189 {
+    background-position: 0 -136px;
+}
+.pay_360 {
+    padding: 5px 0 0 15px;
+}
+.pay_360 .tt {
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 11px;
+}
+.pay_360 .tt .ico {
+    background: rgba(0, 0, 0, 0) url("../../images/common/ico_ico.png") no-repeat scroll -20px -120px;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin: 0 2px 0 0;
+    vertical-align: middle;
+    width: 20px;
+}
+.pay_360_conn {
+    background: #f2f8ff none repeat scroll 0 0;
+    border: 1px solid #9dcbfe;
+    display: none;
+    margin: 0 0 8px 20px;
+    padding: 9px;
+    width: 607px;
+}
+.pay_360_conn .txt {
+    font-size: 0;
+    line-height: 25px;
+}
+@media not all {
+.pay_360_conn .txt {
+    letter-spacing: -5px;
+}
+}
+.pay_360_conn .txt span {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: normal;
+    margin: 0 5px 0 0;
+    vertical-align: top;
+    word-spacing: normal;
+}
+.pay_360_conn .txt .input_txt {
+    color: #444;
+    width: 73px;
+}
+.pay_360_cur .tt .ico {
+    background-position: 0 -120px;
+}
+.pay_360_cur .pay_360_conn {
+    display: block;
+}
+.pay_360_disable .p_links {
+    color: #909090;
+}
+.pay_360_disable .tt .ico {
+    background-position: -40px -120px;
+}
+.pay_phone {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 18px 0 22px;
+}
+.pay_phone li {
+    position: relative;
+    width: 100%;
+}
+.pay_phone li span {
+    display: inline-block;
+}
+.pay_phone li .dt {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 76px;
+}
+.pay_phone li .dd {
+    margin: 0 0 0 76px;
+}
+.pay_phone li .input_txt {
+    width: 145px;
+}
+.pay_btnbox {
+    margin: 0 0 47px;
+    text-align: center;
+}
+.pay_phone_conn {
+    margin: 0 auto;
+    width: 580px;
+}
+.pay_phone_conn .tips {
+    background: #fff6d8 none repeat scroll 0 0;
+    color: #404040;
+    font-size: 14px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0 0 34px;
+    text-align: center;
+}
+.pay_phone_conn dl {
+    font-size: 0;
+    margin: 0 0 14px;
+}
+@media not all {
+.pay_phone_conn dl {
+    letter-spacing: -5px;
+}
+}
+.pay_phone_conn dt, .pay_phone_conn dd {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: normal;
+    line-height: 25px;
+    margin: 0 0 25px;
+    vertical-align: top;
+    word-spacing: normal;
+}
+.pay_phone_conn dt {
+    text-align: right;
+    width: 190px;
+}
+.pay_phone_conn .p_links {
+    text-decoration: underline;
+}
+.pay_phone_conn .btnbox {
+    text-align: center;
+}
+.pay_form {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    padding: 17px 0 5px;
+}
+.pay_form dl {
+    font-size: 0;
+}
+@media not all {
+.pay_form dl {
+    letter-spacing: -5px;
+}
+}
+.pay_form dt, .pay_form dd {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: 25px;
+    margin: 0 0 12px;
+    vertical-align: top;
+    word-spacing: normal;
+}
+.pay_form dt {
+    text-align: right;
+    width: 76px;
+}
+.pay_form1 {
+    border-bottom: 0 none;
+    padding: 29px 0 50px 193px;
+}
+.pay_success {
+    padding: 131px 0 0;
+}
+.pay_success .success_tips {
+    font-family: "黑体";
+    font-size: 25px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+}
+.pay_error {
+    padding: 44px 0 138px;
+}
+.pay_error .error_tt {
+    margin: 0 0 40px 370px;
+    position: relative;
+}
+.pay_error .error_tt .ico {
+    background: rgba(0, 0, 0, 0) url("../../images/common/ico_error.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 46px;
+}
+.pay_error .error_tt .ico_success {
+    background-position: 0 -58px;
+    height: 50px;
+    width: 48px;
+}
+.pay_error .error_tt .txt {
+    margin: 0 0 0 63px;
+}
+.pay_error .error_tt .txt strong {
+    font-family: "黑体";
+    font-size: 25px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+}
+.pay_error .error_tt .txt p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.pay_error .error_tta {
+    margin-bottom: 13px;
+}
+.pay_error .error_tta .ico {
+    background-position: 0 -58px;
+    height: 50px;
+    width: 48px;
+}
+.pay_error .error_conn {
+    height: 220px;
+    margin: 0 0 20px;
+}
+.pay_error .error_conn .tips {
+    background: #fff6d8 none repeat scroll 0 0;
+    color: #404040;
+    font-size: 14px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0 71px 15px 128px;
+    text-align: center;
+}
+.pay_error .error_conn .tips .ico_ico {
+    margin-right: 8px;
+}
+.pay_error .error_conn .tips .p_links {
+    text-decoration: underline;
+}
+.pay_error .error_conn dl {
+    font-size: 0;
+}
+@media not all {
+.pay_error .error_conn dl {
+    letter-spacing: -5px;
+}
+}
+.pay_error .error_conn dt, .pay_error .error_conn dd {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 36px;
+    vertical-align: top;
+    word-spacing: normal;
+}
+.pay_error .error_conn dt {
+    font-weight: bold;
+    margin: 0 10px 0 0;
+    text-align: right;
+    width: 475px;
+}
+.pay_error .error_conn dd {
+    width: 475px;
+}
+.pay_error .error_btnbox {
+    position: relative;
+    text-align: center;
+}
+.pay_error .error_btnbox .btn_pay {
+    margin: 0 20px 0 0;
+}
+.pay_error .error_btnbox .p_links {
+    font-size: 14px;
+    position: absolute;
+    text-decoration: underline;
+    top: 36px;
+}
+.foot_center a {
+    float: left;
+}
+.od_balance {
+    font-size: 14px;
+}
+.od_balance span {
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 2px 10px;
+}
+.pay_sel li.show_msg {
+    display: block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    width: 480px;
+}
+.pay_sel li.show_msg span {
+    background: #ffefbc none repeat scroll 0 0;
+    border: 1px solid #f1d081;
+    border-radius: 4px;
+    color: #ff5400;
+    display: inline-block;
+    padding: 5px 60px 5px 10px;
+    position: relative;
+}
+.pay_sel li.show_msg span a {
+    background: rgba(0, 0, 0, 0) url("../../images/common/ico_ico.png") no-repeat scroll -105px -83px;
+    display: block;
+    height: 13px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 15px;
+}
+.use_coupon {
+    background: #e1fdff none repeat scroll 0 0;
+    border: 1px solid #9de2ff;
+    border-radius: 4px;
+    color: #2193ff;
+    margin-bottom: 15px;
+    padding: 8px 20px;
+    width: 630px;
+}
+.use_coupon select {
+    margin-left: 5px;
+}
+.use_coupon_gray {
+    background: #e9e9e9 none repeat scroll 0 0;
+    border-color: #d3d3d3;
+    color: #434343;
+}
+.coupon_nav {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    width: 312px;
+}
+.coupon_nav li {
+    float: left;
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    text-align: center;
+    width: 156px;
+}
+.coupon_nav li a {
+    display: block;
+    height: 43px;
+    left: -1px;
+    line-height: 43px;
+    position: absolute;
+    top: -1px;
+    width: 158px;
+    z-index: 10;
+}
+.coupon_nav li a:hover {
+    color: #404040;
+    text-decoration: none;
+}
+.coupon_nav li.cur a {
+    border: 3px solid #5dc231;
+    color: #48982d;
+    height: 37px;
+    line-height: 37px;
+    text-decoration: none;
+    width: 152px;
+}
+.coupon_listbox {
+    border: 1px solid #ccc;
+    min-height: 684px;
+}
+.coupon_list {
+    border-collapse: collapse;
+    line-height: 38px;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+}
+.coupon_list td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+}
+.coupon_list td.nobor {
+    border-right: medium none;
+}
+.psr_box {
+    position: relative;
+}
+.new {
+    background: rgba(0, 0, 0, 0) url("../../images/common/ico_ico.png") no-repeat scroll -122px -82px;
+    display: inline-block;
+    font-size: 0;
+    height: 14px;
+    overflow: hidden;
+    position: absolute;
+    right: -32px;
+    top: -5px;
+    width: 28px;
+}
+.pagedown {
+    padding: 10px 0;
+    text-align: right;
+}
+.pagedown .overload, .pagedown .total {
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+.pagedown a {
+    background-image: -moz-linear-gradient(center top , #f8f8f8, #e3e3e3);
+    border: 1px solid #b0b0b0;
+    border-radius: 2px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 8px;
+    vertical-align: middle;
+}
+.pagedown a:hover, .pagedown a.cur {
+    background: #505050 none repeat scroll 0 0;
+    border-color: #505050;
+    color: #fff;
+    text-decoration: none;
+}

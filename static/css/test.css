@@ -1,0 +1,634 @@
+
+body, button, input, select, textarea {
+    font: 12px/1.125 Microsoft YaHei;
+}
+sub, sup {
+    line-height: 0;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+li {
+    list-style: outside none none;
+}
+fieldset, img {
+    border: 0 none;
+}
+input, textarea {
+    outline-style: none;
+}
+textarea {
+    resize: none;
+}
+address, caption, cite, code, dfn, em, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+a {
+    outline: 0 none;
+    text-decoration: none;
+}
+a:hover {
+    color: #6d2d11;
+    text-decoration: underline;
+}
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+}
+.b {
+    font-weight: bold;
+}
+.wrap {
+    padding: 71px 0 0;
+}
+.wan_top_fixed {
+    font-family: Microsoft YaHei;
+    height: 71px;
+    left: 0;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.wan_top_bar {
+    background: rgba(0, 0, 0, 0) url("http://p4.qhimg.com/t01f966f6e496b4c55a.png") repeat-x scroll 0 0;
+    color: #7c7c7c;
+    height: 25px;
+    width: 100%;
+}
+.wan_top_bar a, .wan_top_bar a:hover {
+    color: #7c7c7c;
+}
+.wan_top_bar .top_bar_wrap {
+    height: 25px;
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+    z-index: 11;
+}
+.wan_top_bar .top_bar_slogan {
+    color: #649e00;
+    height: 24px;
+    line-height: 24px;
+}
+.wan_top_bar .top_bar_r {
+    height: 24px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+}
+.wan_top_bar .top_login {
+    float: left;
+    margin: 2px 22px 0 0;
+}
+.wan_top_bar .wan_btn_login, .wan_top_bar .wan_btn_reg {
+    background: rgba(0, 0, 0, 0) url("http://p4.qhimg.com/t01968ed7070d978f18.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 18px;
+    line-height: 150px;
+    margin: 0 8px 0 0;
+    overflow: hidden;
+    vertical-align: top;
+    width: 56px;
+}
+.wan_top_bar .wan_btn_reg {
+    background-position: -64px 0;
+    margin: 0;
+}
+.wan_top_bar .top_info {
+    float: left;
+    line-height: 23px;
+    margin: 0 22px 0 0;
+}
+.wan_top_bar .top_info li {
+    display: inline;
+    float: left;
+    margin: 0 12px;
+}
+.wan_top_bar .top_info li.max_name {
+    height: 23px;
+    margin-right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+.wan_top_bar .top_info .name, .top_bar .top_info .name:hover {
+    color: #148be6;
+}
+.wan_top_bar .top_info .msg_txt {
+    display: inline-block;
+    height: 19px;
+    line-height: 18px;
+    margin: 2px 10px 0 0;
+    text-align: center;
+    width: 44px;
+}
+.wan_top_bar .top_info li {
+    position: relative;
+}
+.wan_top_bar .top_info li .drop_msglist {
+    background: rgba(0, 0, 0, 0) url("http://p5.qhimg.com/t013aa0e3fbb2ca65c7.png") repeat-y scroll -92px 0;
+    display: none;
+    left: -48px;
+    margin: 2px 0 4px;
+    position: absolute;
+    top: 18px;
+    width: 92px;
+}
+.wan_top_bar .top_info li .drop_msglist .drop_t, .wan_top_bar .top_info li .drop_msglist .drop_b {
+    background: rgba(0, 0, 0, 0) url("http://p5.qhimg.com/t013aa0e3fbb2ca65c7.png") no-repeat scroll 0 -18px;
+    display: block;
+    font-size: 1px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+}
+.wan_top_bar .top_info li .drop_msglist .drop_t {
+    height: 2px;
+}
+.wan_top_bar .top_info li .drop_msglist .drop_b {
+    background-position: -184px 0;
+    bottom: -3px;
+    height: 4px;
+    top: auto;
+}
+.wan_top_bar .top_info li .drop_msglist a {
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 8px 0 7px;
+    overflow: hidden;
+    width: 77px;
+}
+.wan_top_bar .top_info li.cur .msg_txt {
+    background: rgba(0, 0, 0, 0) url("http://p5.qhimg.com/t013aa0e3fbb2ca65c7.png") no-repeat scroll -48px 0;
+    height: 18px;
+}
+.wan_top_bar .top_info li.cur .drop_msglist {
+    display: block;
+}
+.wan_top_bar .total_msg {
+    left: 30px;
+    position: absolute;
+    top: 0;
+}
+.wan_top_bar .total_msg, .wan_top_bar .total_msg:hover {
+    background: rgba(0, 0, 0, 0) url("http://p0.qhimg.com/t01d96ed48da357d504.png") no-repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: Tahoma;
+    height: 12px;
+    line-height: 10px;
+    margin: 4px 0 0 5px;
+    overflow: hidden;
+    padding: 0 0 0 4px;
+    text-decoration: none;
+}
+.wan_top_bar .total_msg span {
+    background: rgba(0, 0, 0, 0) url("http://p0.qhimg.com/t01d96ed48da357d504.png") no-repeat scroll 100% -14px;
+    display: inline-block;
+    font-family: Tahoma;
+    height: 12px;
+    line-height: 10px;
+    padding: 0 5px 0 0;
+}
+.wan_top_bar .top_fun {
+    float: left;
+    margin: 0 22px 0 0;
+    padding: 2px 0 0;
+}
+.wan_top_bar .top_fun .home_ico, .wan_top_bar .top_fun .fav_ico, .wan_top_bar .top_fun .desk_ico, .wan_top_bar .top_ico {
+    background: rgba(0, 0, 0, 0) url("http://p1.qhimg.com/t01f333cbd722eb3b88.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 20px;
+    line-height: 150px;
+    margin: 0 7px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 22px;
+}
+.wan_top_bar .top_fun .fav_ico {
+    background-position: -22px 0;
+}
+.wan_top_bar .top_fun .desk_ico {
+    background-position: -44px 0;
+}
+.wan_top_bar .top_fun .home_ico:hover {
+    background-position: 0 -22px;
+}
+.wan_top_bar .top_fun .fav_ico:hover {
+    background-position: -22px -22px;
+}
+.wan_top_bar .top_fun .desk_ico:hover {
+    background-position: -44px -22px;
+}
+.wan_top_bar .top_allgame {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c5c5c5;
+    border-radius: 2px;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 3px 5px 0 2px;
+    padding: 0 4px 0 11px;
+}
+.wan_top_bar .top_allgame .top_ico {
+    background-position: -68px -2px;
+    height: 16px;
+    margin: 0;
+    width: 18px;
+}
+.wan_top_bar .top_allgame:hover {
+    background: #bdbdbd none repeat scroll 0 0;
+    border: 1px solid #989898;
+    color: #3f3f3f;
+    text-decoration: none;
+}
+.wan_top_bar .top_allgame_cur, .wan_top_bar .top_allgame_cur:hover {
+    background: rgba(0, 0, 0, 0) url("http://p0.qhimg.com/t017ce917627e1ba5d6.png") no-repeat scroll 0 0;
+    border: 0 none;
+    height: 19px;
+    line-height: normal;
+    margin: 0;
+    padding: 5px 0 0 14px;
+    text-align: left;
+    width: 76px;
+}
+.wan_top_bar .drop_allgame {
+    height: 265px;
+    position: absolute;
+    right: -1px;
+    top: 24px;
+    width: 355px;
+}
+.wan_top_bar .drop_allgame .iframe {
+    height: 265px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.wan_top_bar .drop_allgame_conn {
+    background: rgba(0, 0, 0, 0) url("http://p7.qhimg.com/t01190e6db71718810d.png") repeat-y scroll 0 0;
+    height: 249px;
+    left: 0;
+    margin: 11px 0 5px;
+    padding: 0 4px 0 2px;
+    position: absolute;
+    top: 0;
+    width: 349px;
+    z-index: 4;
+}
+.wan_top_bar .drop_allgame_conn .drop_t, .wan_top_bar .drop_allgame_conn .drop_b {
+    background: rgba(0, 0, 0, 0) url("http://p1.qhimg.com/t011080f7d6dcaa80bb.png") no-repeat scroll 0 0;
+    font-size: 1px;
+    height: 11px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -11px;
+    width: 355px;
+}
+.wan_top_bar .drop_allgame_conn .drop_b {
+    background-position: 0 -11px;
+    bottom: -5px;
+    height: 5px;
+    top: auto;
+}
+.wan_top_bar .drop_allgame_conn .allgame {
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+    width: 100%;
+}
+.wan_top_bar .drop_allgame_conn .allgame ul {
+    margin-right: -3px;
+}
+.wan_top_bar .drop_allgame_conn .allgame li {
+    border-right: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 87px;
+}
+.wan_top_bar .drop_allgame_conn .allgame li a {
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #696969;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    padding: 0 3px;
+    width: 81px;
+}
+.wan_top_bar .drop_allgame_conn .allgame li a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #0096ff;
+    text-decoration: none;
+}
+.wan_top_bar .drop_allgame_conn .allgame_more {
+    color: #818181;
+    margin-top: 6px;
+    text-align: center;
+}
+.wan_top_bar .drop_allgame_conn .allgame_more a, .wan_top_bar .drop_allgame_conn .allgame_more a:hover {
+    color: #818181;
+}
+.wangame_fixed {
+    height: 43px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.wangame_fixed .wan_top_bar {
+    background: #fefefe none repeat scroll 0 0;
+    border-bottom: 1px solid #bbb;
+    height: 43px;
+    width: 100%;
+}
+.wangame_fixed .wan_top_bar .top_bar_wrap {
+    height: 43px;
+}
+.wangame_fixed .wan_top_bar .top_bar_r {
+    top: 10px;
+}
+.wangame_fixed .wan_top_bar .top_fun {
+    padding: 0;
+}
+.wangame_fixed .wan_top_bar .top_allgame {
+    margin-top: 1px;
+}
+.wangame_fixed .wan_top_bar .top_360logo {
+    background: rgba(0, 0, 0, 0) url("http://p5.qhimg.com/t01298f7951b0b86e1c.png") no-repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 200px;
+    margin: 1px 50px 0 0;
+    overflow: hidden;
+    width: 102px;
+}
+.wangame_fixed .wan_top_bar .top_g_e {
+    float: left;
+    padding: 5px 0 0;
+    position: relative;
+}
+.wangame_fixed .wan_top_bar .top_g_e .txt {
+    background: rgba(0, 0, 0, 0) url("http://p0.qhimg.com/t01b833a7607a9e56fe.png") no-repeat scroll 0 0;
+    color: #830000;
+    display: inline-block;
+    height: 34px;
+    line-height: 300px;
+    overflow: hidden;
+    padding: 1px 0 0 49px;
+    vertical-align: top;
+    width: 110px;
+}
+.wangame_fixed .wan_top_bar .top_g_e .top_drop {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #f1f1f1 #f1f1f1;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    display: none;
+    height: 154px;
+    left: 0;
+    position: absolute;
+    top: 43px;
+    width: 408px;
+}
+.wangame_fixed .wan_top_bar .top_g_e .top_drop img {
+    vertical-align: middle;
+}
+.wangame_fixed .wan_top_bar .top_menu {
+    border-left: 1px solid #7e7e7e;
+    border-right: 1px solid #7e7e7e;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    margin: 3px 12px 0 0;
+    padding: 0 11px;
+}
+.wangame_fixed .wan_top_bar .top_menu a {
+    display: inline-block;
+    height: 15px;
+    padding: 0 10px;
+}
+.wangame_fixed .wan_top_bar .top_login {
+    margin-top: 0;
+}
+.wangame_fixed .wan_top_bar .wan_btn_login, .wangame_fixed .wan_top_bar .wan_btn_reg {
+    background: rgba(0, 0, 0, 0) url("http://p3.qhimg.com/t01f0d40737b3c5293b.png") no-repeat scroll 0 0;
+    height: 23px;
+}
+.wangame_fixed .wan_top_bar .wan_btn_reg {
+    background-position: -64px 0;
+}
+.wan_menu_bar {
+    background: rgba(0, 0, 0, 0) url("http://p4.qhimg.com/t01f966f6e496b4c55a.png") repeat-x scroll 0 -25px;
+    height: 46px;
+    width: 100%;
+}
+.wan_menu_bar .menu_bar_wrap {
+    height: 46px;
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+    z-index: 10;
+}
+.wan_menu_bar .menu_wan_logo {
+    background: rgba(0, 0, 0, 0) url("http://p5.qhimg.com/t01298f7951b0b86e1c.png") no-repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 200px;
+    margin: 3px 40px 0 0;
+    overflow: hidden;
+    width: 102px;
+}
+.wan_menu_bar .nav_iconew {
+    background: rgba(0, 0, 0, 0) url("http://p1.qhimg.com/t01f333cbd722eb3b88.png") no-repeat scroll 0 -66px;
+    display: inline-block;
+    height: 13px;
+    line-height: 150px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 28px;
+}
+.wan_menu_bar .menu_nav {
+    padding: 2px 0 0;
+}
+.wan_menu_bar .menu_nav a, .wan_menu_bar .menu_nav a:hover {
+    color: #595959;
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 9px;
+    padding: 0 17px 4px;
+    position: relative;
+    text-decoration: none;
+}
+.wan_menu_bar .menu_nav a:hover, .wan_menu_bar .menu_nav a.cur {
+    border-bottom: 4px solid #48d012;
+    padding-bottom: 0;
+}
+.wan_menu_bar .menu_nav a .nav_iconew {
+    position: absolute;
+    right: -13px;
+    top: 14px;
+}
+.vip_top_fixed {
+    background: rgba(0, 0, 0, 0) url("http://p6.qhimg.com/t014116f5b4fe268ac6.png") repeat-x scroll 0 0;
+    display: block;
+    font: 12px/1.125 Tahoma,Geneva,sans-serif ËÎÌו;
+    height: 78px;
+    width: 100%;
+}
+.vip_top_fixed .wan_top_bar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 988px;
+    z-index: 10;
+}
+.vip_top_fixed .wan_top_bar .vip_logo {
+    background: rgba(0, 0, 0, 0) url("http://p7.qhimg.com/t010a88af53888dcbb7.png") no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 50px;
+    margin-top: 14px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 208px;
+}
+.vip_top_fixed .wan_top_bar .top_bar_r {
+    top: 4px;
+}
+.vip_top_fixed .wan_top_bar a {
+    color: #595959;
+}
+.vip_top_fixed .wan_top_bar a:hover {
+    color: #148be6;
+}
+.vip_top_fixed .top_bar_r {
+    z-index: 11;
+}
+.vip_top_fixed .top_bar_r .top_menu {
+    border-right: 1px solid #7e7e7e;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    margin: 4px 12px 0 0;
+    padding: 0 15px;
+}
+.vip_top_fixed .top_bar_r .top_menu a {
+    display: inline-block;
+    height: 15px;
+    padding: 0 10px;
+}
+.vip_top_fixed .top_bar_r .top_login {
+    margin: 2px 0 0;
+}
+.vip_top_fixed .wan_top_bar .top_info {
+    margin: 0;
+}
+.vip_top_fixed .wan_top_bar .top_info li {
+    margin: 0 0 0 15px;
+}
+.vip_top_fixed .wan_top_bar .top_info .msg_txt {
+    margin: 3px 10px 0 0;
+}
+.vip_top_fixed .wan_top_bar li .drop_msglist {
+    left: -48px;
+    top: 21px;
+}
+.vip_top_fixed .wan_top_bar .total_msg {
+    color: #fff;
+    top: 3px;
+}
+.vip_top_fixed .wan_top_bar .total_msg, .vip_top_fixed .wan_top_bar .total_msg:hover {
+    color: #fff;
+}
+.vip_top_fixed .wan_top_bar .open_vip, .vip_top_fixed .wan_top_bar .goon_vip {
+    background: rgba(0, 0, 0, 0) url("http://p9.qhimg.com/t0122768c8c0327219e.png") no-repeat scroll 0 0;
+    display: block;
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 36px;
+    width: 93px;
+    z-index: 10;
+}
+.vip_top_fixed .wan_top_bar .open_vip:hover {
+    background-position: -103px 0;
+}
+.vip_top_fixed .wan_top_bar .goon_vip {
+    background-position: 0 -35px;
+}
+.vip_top_fixed .wan_top_bar .goon_vip:hover {
+    background-position: -103px -35px;
+}
+.foot {
+    border-top: 1px solid #ccc;
+    color: #7f7f7f;
+    display: block;
+    line-height: 30px;
+    margin: auto;
+    overflow: hidden;
+    width: 985px;
+}
+.foot_left {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 405px;
+}
+.foot_center {
+    display: block;
+    float: left;
+    width: 405px;
+}
+.foot_center a {
+    color: #7f7f7f;
+    margin: 0 10px;
+}
+.foot_logo {
+    background: rgba(0, 0, 0, 0) url("http://p6.qhimg.com/t013dcf8efbda15f214.png") no-repeat scroll 0 0;
+    display: block;
+    float: right;
+    height: 29px;
+    margin-top: 10px;
+    width: 55px;
+}
