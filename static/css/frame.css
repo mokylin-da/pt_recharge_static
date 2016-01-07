@@ -5,18 +5,18 @@
     position: static;
 }
 .pay_header {
-    background: rgba(0, 0, 0, 0) url("../../images/common/header_bg.png") repeat-x scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/header_bg.png") repeat-x scroll 0 0;
     height: 52px;
     width: 100%;
 }
 .pay_header .header_conn {
-    background: rgba(0, 0, 0, 0) url("../../images/common/header_bg.png") repeat-x scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/header_bg.png") repeat-x scroll 0 0;
     height: 52px;
     margin: 0 auto;
     width: 985px;
 }
 .pay_header .pay_logo {
-    background: rgba(0, 0, 0, 0) url("../../images/common/") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/") no-repeat scroll 0 0;
     display: block;
     height: 52px;
     overflow: hidden;
@@ -140,7 +140,7 @@
     line-height: 43px;
 }
 .user_wrap .user_login .login_btn, .user_wrap .user_login .reg_btn {
-    background: rgba(0, 0, 0, 0) url("../../images/common/p_btn.png") no-repeat scroll 0 -237px;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/p_btn.png") no-repeat scroll 0 -237px;
     color: #41b305;
     display: inline-block;
     font-size: 18px;
@@ -155,7 +155,7 @@
     color: #0066d8;
 }
 .frame_conn {
-    background: rgba(0, 0, 0, 0) url("../../images/common/bgy01.png") repeat-y scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/bgy01.png") repeat-y scroll 0 0;
     border: 1px solid #e8e8e8;
     margin: 0 0 35px;
     width: 600px;

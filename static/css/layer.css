@@ -8,7 +8,7 @@
     top: 0;
 }
 .pay_layer s {
-    background: rgba(0, 0, 0, 0) url("../../images/layer/layer_ico.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/layer/layer_ico.png") no-repeat scroll 0 0;
     font-size: 1px;
     height: 11px;
     left: 100px;
@@ -18,7 +18,7 @@
     width: 22px;
 }
 .pay_layer .close {
-    background: rgba(0, 0, 0, 0) url("../../images/layer/layer_close1.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/layer/layer_close1.png") no-repeat scroll 0 0;
     display: block;
     height: 20px;
     overflow: hidden;
@@ -89,7 +89,7 @@
     overflow: hidden;
 }
 .pay_layer .btn_btn_a, .pay_layer .btn_btn_a span, .pay_layer .btn_btn_b, .pay_layer .btn_btn_b span {
-    background: rgba(0, 0, 0, 0) url("../../images/layer/layer_btn.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/layer/layer_btn.png") no-repeat scroll 0 0;
     display: inline-block;
     height: 34px;
     line-height: 34px;
@@ -229,7 +229,7 @@
     z-index: 15;
 }
 .scroll_bar .cur_bar .ct, .scroll_bar .cur_bar .cb {
-    background: rgba(0, 0, 0, 0) url("../../images/layer/scroll.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/layer/scroll.png") no-repeat scroll 0 0;
     display: inline-block;
     font-size: 1px;
     height: 4px;
@@ -260,7 +260,7 @@
     width: 85px;
 }
 .layer_loading .loading .t, .layer_loading .loading .b {
-    background: rgba(0, 0, 0, 0) url("../../images/layer/radius_2.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/layer/radius_2.png") no-repeat scroll 0 0;
     display: block;
     font-size: 1px;
     height: 2px;
@@ -298,7 +298,7 @@
     position: relative;
 }
 .pay_layera .close {
-    background: rgba(0, 0, 0, 0) url("../../images/layer/layer_close1.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/layer/layer_close1.png") no-repeat scroll 0 0;
     display: block;
     height: 20px;
     overflow: hidden;

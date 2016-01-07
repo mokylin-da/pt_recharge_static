@@ -24,7 +24,7 @@
     word-spacing: normal;
 }
 .pay_sel .sel_item, .pay_sel .sel_item:hover, .pay_sel .sel_item_disable {
-    background: rgba(0, 0, 0, 0) url("../../images/common/p_btn.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/p_btn.png") no-repeat scroll 0 0;
     color: #403f3f;
     display: block;
     font-size: 14px;
@@ -156,7 +156,7 @@
     margin-right: 12px;
 }
 .ico_bank {
-    background: rgba(0, 0, 0, 0) url("../../images/common/bank.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/bank.png") no-repeat scroll 0 0;
     display: inline-block;
     height: 24px;
     vertical-align: middle;
@@ -224,7 +224,7 @@
     margin-right: 0;
 }
 .card_logo {
-    background: rgba(0, 0, 0, 0) url("../../images/common/card.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/card.png") no-repeat scroll 0 0;
     display: inline-block;
     height: 47px;
     vertical-align: middle;
@@ -261,7 +261,7 @@
     margin-right: 6px;
 }
 .phone_logo {
-    background: rgba(0, 0, 0, 0) url("../../images/common/phone_card.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/phone_card.png") no-repeat scroll 0 0;
     display: inline-block;
     height: 58px;
     vertical-align: middle;
@@ -287,7 +287,7 @@
     margin: 0 0 11px;
 }
 .pay_360 .tt .ico {
-    background: rgba(0, 0, 0, 0) url("../../images/common/ico_ico.png") no-repeat scroll -20px -120px;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/ico_ico.png") no-repeat scroll -20px -120px;
     display: inline-block;
     float: left;
     height: 20px;
@@ -454,7 +454,7 @@
     position: relative;
 }
 .pay_error .error_tt .ico {
-    background: rgba(0, 0, 0, 0) url("../../images/common/ico_error.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/ico_error.png") no-repeat scroll 0 0;
     display: inline-block;
     height: 48px;
     left: 0;
@@ -577,7 +577,7 @@
     position: relative;
 }
 .pay_sel li.show_msg span a {
-    background: rgba(0, 0, 0, 0) url("../../images/common/ico_ico.png") no-repeat scroll -105px -83px;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/ico_ico.png") no-repeat scroll -105px -83px;
     display: block;
     height: 13px;
     position: absolute;
@@ -671,7 +671,7 @@
     position: relative;
 }
 .new {
-    background: rgba(0, 0, 0, 0) url("../../images/common/ico_ico.png") no-repeat scroll -122px -82px;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/ico_ico.png") no-repeat scroll -122px -82px;
     display: inline-block;
     font-size: 0;
     height: 14px;

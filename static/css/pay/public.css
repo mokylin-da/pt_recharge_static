@@ -37,7 +37,7 @@ body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p,
 }
 
 .frame_conn {
-	background: rgba(0, 0, 0, 0) url("../../images/common/bgy01.png")
+	background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/bgy01.png")
 		repeat-y scroll 0 0;
 	border: 1px solid #e8e8e8;
 	margin: 0 35px 0 0;
@@ -136,7 +136,7 @@ body, button, input, select, textarea {
 }
 
 .btn_btn {
-    background: rgba(0, 0, 0, 0) url("../../images/common/p_btn.png") no-repeat scroll -60px -63px;
+    background: rgba(0, 0, 0, 0) url("https://cdn-prod.36b.me/recharge/static/images/common/p_btn.png") no-repeat scroll -60px -63px;
     color: #fff;
     display: inline-block;
     text-align: center;
