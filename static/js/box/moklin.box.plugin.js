@@ -15,7 +15,7 @@
             '            <tr><td class="PT_tl"/><td class="PT_b"/><td class="PT_tr"/></tr>' +
             '            <tr><td class="PT_b"><div style="width:10px;">&nbsp;</div></td>' +
             '                <td><div class="PT_body">' +
-            ( typeof env.title == 'undefined' ? '' : '<table class="PT_title"><tr><td class="PT_dragTitle"><div class="PT_itemTitle">' + env.title + '</div></td><td width="20px" title="关闭"><div class="PT_close"></div></td></tr></table> ') +
+            ( typeof env.title == 'undefined' ? '' : '<table class="PT_title"><tr><td class="PT_dragTitle"><div class="PT_itemTitle">' + env.title + '</div></td><td width="20px" title="关闭"><div class="PT_close">X</div></td></tr></table> ') +
             '<div class="PT_content" id="PTContent"></div></div></td>' +
             '                <td class="PT_b"><div style="width:10px;">&nbsp;</div></td>' +
             '            </tr>' +
