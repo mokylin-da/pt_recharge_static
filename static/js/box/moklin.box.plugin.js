@@ -155,11 +155,10 @@
             return [l, t];
         };
         
-//        env.show ? show() : $(this).click(function(){
-//            show();
-//            return false;
-//        });
-        show();
+				env.show ? show() : $(this).click(function(){
+            show();
+            return false;
+        });
         return this;
     }
    
@@ -167,7 +166,7 @@
         eid: "",
         basehome: "https://cdn-prod.36b.me/recharge",
         opacity: 0.5,
-        show: false,
+        show: true,
         timeout: 0,
         target: null,
         pttype: null,//iframe,ajax

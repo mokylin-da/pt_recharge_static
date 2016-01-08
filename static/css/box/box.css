@@ -2,7 +2,6 @@
     filter: alpha(opacity = 80);
     -moz-opacity: 0.8;
     opacity: 0.8;
-    #background-image: url(PT.gif);
     width: 10px;
 }
 
@@ -43,7 +42,7 @@
     height: 28px;
     color: #000000;
     width: 100%;
-    background: url(https://cdn-prod.36b.me/recharge/static/images/box/titleBG.png) repeat-x;
+    background: url("https://cdn-prod.36b.me/recharge/static/images/box/titleBG.png") repeat-x;
 }
 
 #PT .PT_title .PT_itemTitle {
@@ -54,7 +53,7 @@
 }
 
 #PT .PT_title .PT_close {
-    background: url(https://cdn-prod.36b.me/recharge/static/images/box/close.png) no-repeat 0 0;
+    background: url("https://cdn-prod.36b.me/recharge/static/images/box/close.png") no-repeat 0 0;
     height: 14px;
     width: 14px;
     overflow: hidden;
@@ -71,15 +70,11 @@
     overflow: hidden;
 
 #background-image:
-    url(images/box/PT.gif);
-    padding:
-    0;
-    filter:
-    alpha(opacity = 80);
-    -moz-opacity:
-    0.8;
-    opacity:
-    0.8;
+    url("https://cdn-prod.36b.me/recharge/static/images/box/PT.gif");
+    padding:0;
+    filter:alpha(opacity = 80);
+    -moz-opacity:0.8;
+    opacity:0.8;
 }
 
 #PT #PTContent {
