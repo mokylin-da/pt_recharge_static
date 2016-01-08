@@ -25,7 +25,7 @@
             '</div>',
             IFRAME_BODY: "<iframe name='PTIframe' style='width:" + env.iwh.w + "px;height:" + env.iwh.h + "px;' scrolling='auto' frameborder='0' src='" + env.target + "'></iframe>",
             OVERLAY: "<div id='PT_overlay' class='PT_hide'></div>",
-            LOAD: "<div class='PT_load'><div id='PT_loading'><img src='" + env.basehome + "/statis/images/box/loading.gif' /></div></div>"
+            LOAD: "<div class='PT_load'><div id='PT_loading'><img src='" + env.basehome + "/static/images/box/loading.gif' /></div></div>"
         };
         var $W, $OLAY, $C;
         var show = function(){
