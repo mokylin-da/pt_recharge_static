@@ -30,11 +30,13 @@
         var $W, $OLAY, $C;
         var show = function(){
             $W = $(window);
-            $OLAY = $(I.OVERLAY).hide().addClass('PT_overlayBG').css('opacity', env.opacity).dblclick(function(){
-                close();
-            }).appendTo('body').fadeIn(300);
+            if(!$("#PT_overlayBG") || !$("#PT")) {
+	            return;
+	          }
+	          $OLAY = $(I.OVERLAY).hide().addClass('PT_overlayBG').css('opacity', env.opacity).dblclick(function(){
+	                close();
+	          }).appendTo('body').fadeIn(300);
             $C = $(I.PTHtml).appendTo('body');
-            $(I.PAYFORM).appendTo('body');
             handleClick();
         };
         function close(){
@@ -173,8 +175,8 @@
         title: "充值",
         drag: true,
         iwh: {
-            w: 400,
-            h: 300
+            w: 500,
+            h: 600
         },
         html: ''
     };
