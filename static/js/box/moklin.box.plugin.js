@@ -17,7 +17,7 @@
             '</div>',
             IFRAME_BODY: "<iframe name='PTIframe' class='PT_content_frame' style='width:" + env.iwh.w + "px;height:" + env.iwh.h + "px;' scrolling='auto' frameborder='0' src='" + env.target + "'></iframe>",
             OVERLAY: "<iframe id='PT_overlay'></iframe>",
-            LOAD: "<div class='PT_load'><div id='PT_loading'><img src='" + env.basehome + "statis/images/box/loading.gif' /></div></div>"
+            LOAD: "<div class='PT_load'><div id='PT_loading'><img src='" + env.basehome + "/recharge/static/images/box/loading.gif' /></div></div>"
         };
         var $W, $OLAY, $C;
         var show = function(){
@@ -158,7 +158,7 @@
    
     $.fn.BOX.defaults = {
         eid: "",
-        basehome: "",
+        basehome: "https://cdn-prod.36b.me",
         opacity: 0.5,
         show: true,
         timeout: 0,
