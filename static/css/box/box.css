@@ -1,119 +1,62 @@
-#PT .PT_b {
-    filter: alpha(opacity = 80);
-    -moz-opacity: 0.8;
-    opacity: 0.8;
-    width: 10px;
-}
-
-#PT {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    text-align: left;
-    display: none;
-}
-
-#PT .PT_popup {
-    position: relative;
-}
-
-#PT table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-#PT td {
-    border-bottom: 0;
-    padding: 0;
-}
-
-#PT .PT_body {
-    background-color: #ffffff;
-    border: 1px solid #4D7BE0;
-    overflow: visible;
-}
-
-#PT img {
-    border: 0;
-    margin: 0;
-}
-
-#PT .PT_title {
+.PT_title {
     height: 28px;
-    color: #000000;
-    width: 100%;
-    background:#2894FF;
+    border-bottom: 1px solid #D8D8D8;
+    background: transparent -moz-linear-gradient(center top , #FAFAFA 0%, #EDEDED 100%) repeat scroll 0% 0%;
 }
-
-#PT .PT_title .PT_itemTitle {
-    padding-left: 5px;
-    overflow: visible;
-    font-size: 14px;
+.PT_title h3 {
+    float: left;
+    height: 28px;
+    color: #4C4C4C;
+    font-size: 13px;
+    line-height: 28px;
+    overflow: hidden;
+    margin: 0px;
+    padding-left: 10px;
     font-weight: bold;
 }
-
-#PT .PT_title .PT_close {
-    height: 14px;
-    width: 14px;
-    overflow: hidden;
+.PT_title button {
+    float: right;
+    line-height: 100px;
     cursor: pointer;
-    font-style:normal;
-    font-size: 16px;
+    font-size: 10px;
 }
-
-
-#PT .PT_title .PT_close a:link {
-    color: #333333;
-    text-decoration: none;
-}
-
-#PT .PT_title .on {
-    background-position: 0 -14px;
-}
-
-#PT .PT_tl, #PT .PT_tr, #PT .PT_bl, #PT .PT_br {
-    height: 10px;
-    width: 10px;
-    overflow: hidden;
-}
-
-#background-image:
-    url("https://cdn-prod.36b.me/recharge/static/images/box/PT.gif");
-    padding:0;
-    filter:alpha(opacity = 80);
-    -moz-opacity:0.8;
-    opacity:0.8;
-}
-
-#PT #PTContent {
-    padding: 3px;
-}
-
-#PT_overlay {
+.PT_overlay {
     position: absolute;
-    top: 0px;
-    left: 0px;
     height: 100%;
     width: 100%;
-    z-index:1;
+    z-index: 4000;
+    transition: left 0.6s ease-out 0s, top 0.6s ease-out 0s, width 0.6s ease-out 0s, height 0.6s ease-out 0s;
 }
-
-#PT .PT_load {
-    width: 270px;
-}
-
-.PT_hide {
-    z-index: -100;
-}
-
-.PT_overlayBG {
+.PT_popup {
+    position: absolute;
+    border: 1px solid #535658;
+    box-shadow: 0px 0px 3px #535658;
     background-color: #FFF;
-    z-index: 99;
+    font-size: 12px;
+    font-family: "Microsoft Yahei",Tohama;
+    transition: left 0.6s ease-out 0s, top 0.6s ease-out 0s, width 0.6s ease-out 0s;
 }
 
-#PT #PT_loading {
-    width: 32px;
-    height: 32px;
-    margin: 0 auto;
+.PTContent {
+    color: #5F5F5F;
+    background-color: #FFF;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.6s ease-out 0s;
+}
+.PT_content_frame {
+    transition: width 0.6s ease-out 0s, height 0.6s ease-out 0s;
+}
+.PT_close {
+     background-color: transparent;
+    background-image: url("https://cdn-prod.36b.me/recharge/static/images/box/close.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    float: right;
+    width: 34px;
+    height: 24px;
+    line-height: 100px;
+    border: 0px none;
+    cursor: pointer;
+    font-size: 10px;
 }

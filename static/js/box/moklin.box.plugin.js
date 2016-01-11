@@ -8,34 +8,23 @@
         env = $.extend({}, $.fn.BOX.defaults, options);
         I = {
             PTYPE: ['iframe', 'ajax'],
-            OL: "<div id='m_overlay' class='PT_hide'></div>",
-            PTHtml: '<div id="PT">' +
-            '    <div class="PT_popup">' +
-            '        <table><tbody>' +
-            '            <tr><td class="PT_tl"/><td class="PT_b"/><td class="PT_tr"/></tr>' +
-            '            <tr><td class="PT_b"><div style="width:10px;">&nbsp;</div></td>' +
-            '                <td><div class="PT_body">' +
-            ( typeof env.title == 'undefined' ? '' : '<table class="PT_title"><tr><td class="PT_dragTitle"><div class="PT_itemTitle">' + env.title + '</div></td><td width="20px" title="关闭"><div class="PT_close">X</div></td></tr></table> ') +
-            '<div class="PT_content" id="PTContent"></div></div></td>' +
-            '                <td class="PT_b"><div style="width:10px;">&nbsp;</div></td>' +
-            '            </tr>' +
-            '            <tr><td class="PT_bl"/><td class="PT_b"/><td class="PT_br"/></tr>' +
-            '        </tbody></table>' +
-            '    </div>' +
+            PTHtml:'<div id="PT" style="left: 779px; top: 115px;  z-index: 5000;" class="PT_popup">'+
+            '<div style="cursor: move;" class="PT_title"><h3>'
+            + (typeof env.title == 'undefined' ? '游戏币兑换' : env.title) 
+            +'</h3><button class="PT_close" title="关闭"></button>'+
+            '</div>' +
+            '<div id="PTContent" class="PT_content"></div>'+
             '</div>',
-            IFRAME_BODY: "<iframe name='PTIframe' style='width:" + env.iwh.w + "px;height:" + env.iwh.h + "px;' scrolling='auto' frameborder='0' src='" + env.target + "'></iframe>",
-            OVERLAY: "<div id='PT_overlay' class='PT_hide'></div>",
-            LOAD: "<div class='PT_load'><div id='PT_loading'><img src='" + env.basehome + "/static/images/box/loading.gif' /></div></div>"
+            IFRAME_BODY: "<iframe name='PTIframe' class='PT_content_frame' style='width:" + env.iwh.w + "px;height:" + env.iwh.h + "px;' scrolling='auto' frameborder='0' src='" + env.target + "'></iframe>",
+            OVERLAY: "<iframe id='PT_overlay'></iframe>",
+            LOAD: "<div class='PT_load'><div id='PT_loading'><img src='" + env.basehome + "statis/images/box/loading.gif' /></div></div>"
         };
         var $W, $OLAY, $C;
         var show = function(){
             $W = $(window);
-            if(!$("#PT_overlayBG") || !$("#PT")) {
-	            return;
-	          }
-	          $OLAY = $(I.OVERLAY).hide().addClass('PT_overlayBG').css('opacity', env.opacity).dblclick(function(){
-	                close();
-	          }).appendTo('body').fadeIn(300);
+            $OLAY = $(I.OVERLAY).hide().addClass('PT_overlay').css('opacity', env.opacity).dblclick(function(){
+                close();
+            }).appendTo('body').fadeIn(300);
             $C = $(I.PTHtml).appendTo('body');
             handleClick();
         };
@@ -59,13 +48,14 @@
             })
         };
         function iframebuild(con){
+        	  try {
             var ifr = $(I.IFRAME_BODY);
             ifr.appendTo(con.empty());
             ifr.load(function(){
                 try {
                     var T = $(this).contents();
                     this.closeClick(T);
-                    var iwh = this.calcComponent(T);
+                    var iwh = calcComponent(T);
                     $C.css({
                         left: iwh.l,
                         top: iwh.t
@@ -78,6 +68,9 @@
                 	console.log("iframe load error : " + e);
                 }
             });
+        	  } catch (e) {
+              	console.log("iframe error : " + e);
+              }
         };
         function calcComponent(T){
             fH = T.height();//iframe height
@@ -156,8 +149,7 @@
             t = $W.scrollTop() + $W.height() / 9;
             return [l, t];
         };
-        
-				env.show ? show() : $(this).click(function(){
+        env.show ? show() : $(this).click(function(){
             show();
             return false;
         });
@@ -166,7 +158,7 @@
    
     $.fn.BOX.defaults = {
         eid: "",
-        basehome: "https://cdn-prod.36b.me/recharge",
+        basehome: "",
         opacity: 0.5,
         show: true,
         timeout: 0,
@@ -175,9 +167,11 @@
         title: "充值",
         drag: true,
         iwh: {
-            w: 600,
-            h: 500
+            w: 800,
+            h: 600
         },
-        html: ''
+        html: ''//内容
     };
+    
+   
 })(jQuery);
